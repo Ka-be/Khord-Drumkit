@@ -5,12 +5,28 @@ body {
 }
 
 body {
-	background: #2c3e50;
-	color: #f1c40f;
+	background: $dark-grey;
+}
+
+kbd{
+  color: $turquoise;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.sound{
+  color: $silver ;
 }
 
 .key{
-  border: solid 1px white;
+  background: $light-grey;
+  border-radius: 10px;
+  transition: ease-out all .1s;
+
   @include flex-column-center;
 }
 
+.play{
+  background: $turquoise;
+  transform: scale(1.1);
+}

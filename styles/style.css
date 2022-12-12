@@ -37,8 +37,8 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
 }
 
 @media (min-width: 960px) {
@@ -54,14 +54,30 @@ body {
 }
 
 body {
-  background: #2c3e50;
-  color: #f1c40f;
+  background: #19242e;
+}
+
+kbd {
+  color: #1ABC9C;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.sound {
+  color: #BDC3C7;
 }
 
 .key {
-  border: solid 1px white;
+  background: #34495E;
+  border-radius: 10px;
+  transition: ease-out all 0.1s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.play {
+  background: #1ABC9C;
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
