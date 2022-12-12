@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Drumkit</title>
-</head>
-<body>
-  <main>
-    <h1>Drumkit</h1>
-    <div class="keys">
-      <div class="key" data-key="65">
-        <kbd>A</kbd>
-        <span class="sound">Kick</span>
-      </div>
-      <div class="key" data-key="90">
-        <kbd>Z</kbd>
-        <span class="sound">Clap</span>
-      </div>
-      <div class="key" data-key="69">
-        <kbd>E</kbd>
-        <span class="sound">Snare</span>
-      </div>
-      <div class="key" data-key="82">
-        <kbd>R</kbd>
-        <span class="sound">Rim</span>
-      </div>
-      <div class="key" data-key="84">
-        <kbd>T</kbd>
-        <span class="sound">Hi-Hat Closed</span>
-      </div>
-      <div class="key" data-key="89">
-        <kbd>Y</kbd>
-        <span class="sound">Hi-Hat Open</span>
-      </div>
-      <div class="key" data-key="85">
-        <kbd>U</kbd>
-        <span class="sound">Crash</span>
-      </div>
-      <div class="key" data-key="73">
-        <kbd>I</kbd>
-        <span class="sound">Pad A</span>
-      </div>
-      <div class="key" data-key="79">
-        <kbd>O</kbd>
-        <span class="sound">Pad B</span>
-      </div>
-      <div class="key" data-key="80">
-        <kbd>P</kbd>
-        <span class="sound">Pad C</span>
-      </div>
-    </div>
-  </main>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>KHORD - A Tiny JS Drumkit</title>
+	</head>
+	<body>
+		<main>
+			<img src="/images/logo.svg" alt="KHORD logo" class="logo" />
+			<div class="keys">
+				<div class="key" data-key="65">
+					<kbd>A</kbd>
+					<span class="sound">Kick</span>
+				</div>
+				<div class="key" data-key="90">
+					<kbd>Z</kbd>
+					<span class="sound">Clap</span>
+				</div>
+				<div class="key" data-key="69">
+					<kbd>E</kbd>
+					<span class="sound">Snare</span>
+				</div>
+				<div class="key" data-key="82">
+					<kbd>R</kbd>
+					<span class="sound">Rim</span>
+				</div>
+				<div class="key" data-key="84">
+					<kbd>T</kbd>
+					<span class="sound">Hi-Hat Closed</span>
+				</div>
+				<div class="key" data-key="89">
+					<kbd>Y</kbd>
+					<span class="sound">Hi-Hat Open</span>
+				</div>
+				<div class="key" data-key="85">
+					<kbd>U</kbd>
+					<span class="sound">Crash</span>
+				</div>
+				<div class="key" data-key="73">
+					<kbd>I</kbd>
+					<span class="sound">Pad A</span>
+				</div>
+				<div class="key" data-key="79">
+					<kbd>O</kbd>
+					<span class="sound">Pad B</span>
+				</div>
+				<div class="key" data-key="80">
+					<kbd>P</kbd>
+					<span class="sound">Pad C</span>
+				</div>
+			</div>
+		</main>
 
-  <audio data-key="65" src="/sounds/kick.wav"></audio>
-  <audio data-key="90" src="/sounds/clap.wav"></audio>
-  <audio data-key="69" src="/sounds/snare.wav"></audio>
-  <audio data-key="82" src="/sounds/rim.WAV"></audio>
-  <audio data-key="84" src="/sounds/hi-hat-closed.wav"></audio>
-  <audio data-key="89" src="/sounds/hi-hat-open.wav"></audio>
-  <audio data-key="85" src="/sounds/crash.wav"></audio>
-  <audio data-key="73" src="/sounds/pad1.wav"></audio>
-  <audio data-key="79" src="/sounds/pad2.wav"></audio>
-  <audio data-key="80" src="/sounds/pad3.wav"></audio>
+		<audio data-key="65" src="/sounds/kick.wav"></audio>
+		<audio data-key="90" src="/sounds/clap.wav"></audio>
+		<audio data-key="69" src="/sounds/snare.wav"></audio>
+		<audio data-key="82" src="/sounds/rim.WAV"></audio>
+		<audio data-key="84" src="/sounds/hi-hat-closed.wav"></audio>
+		<audio data-key="89" src="/sounds/hi-hat-open.wav"></audio>
+		<audio data-key="85" src="/sounds/crash.wav"></audio>
+		<audio data-key="73" src="/sounds/pad1.wav"></audio>
+		<audio data-key="79" src="/sounds/pad2.wav"></audio>
+		<audio data-key="80" src="/sounds/pad3.wav"></audio>
 
-  <!-- JS -->
-  <script src="/js/app.js"></script>
-</body>
+		<!-- JS -->
+		<script src="/js/app.js"></script>
+	</body>
 </html>

@@ -1,6 +1,6 @@
-# Drumkit
+# KHORD - A JS Drumpad
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<img src="images/logo.svg" width=15%>
 
 A little music pad, to make some sounds with your keyboard.
 
