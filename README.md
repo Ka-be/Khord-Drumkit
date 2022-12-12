@@ -1,6 +1,6 @@
 # KHORD - A JS Drumpad
 
-<img src="images/logo.svg" width=15%>
+<img src="images/logo.svg" width=30%>
 
 A little music pad, to make some sounds with your keyboard.
 
