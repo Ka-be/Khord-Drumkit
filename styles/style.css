@@ -44,8 +44,8 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 @media (min-width: 960px) {
@@ -69,19 +69,27 @@ body {
 }
 
 kbd {
-  color: #1ABC9C;
-  font-size: 3em;
+  color: #BDC3C7;
+  font-size: 2em;
   font-weight: 800;
 }
 
-.sound {
+.sound-icon {
+  height: 50%;
+}
+
+.sound-title {
   color: #BDC3C7;
+  font-size: 0.7em;
+  font-weight: 100;
+  opacity: 0.7;
 }
 
 .key {
   background: #34495E;
   border-radius: 10px;
   transition: ease-out all 0.1s;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,6 +101,11 @@ kbd {
   transform: scale(1.1);
 }
 
+@media (min-width: 960px) {
+  .key {
+    height: auto;
+  }
+}
 footer p {
   color: #34495E;
 }

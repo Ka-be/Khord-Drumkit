@@ -13,19 +13,27 @@ body {
 }
 
 kbd{
-  color: $turquoise;
-  font-size: 3em;
+  color: $silver;
+  font-size: 2em;
   font-weight: 800;
 }
 
-.sound{
-  color: $silver ;
+.sound-icon{
+  height: 50%;
+}
+
+.sound-title{
+  color: $silver;
+  font-size: .7em;
+  font-weight: 100;
+  opacity: 0.7;
 }
 
 .key{
   background: $light-grey;
   border-radius: 10px;
   transition: ease-out all .1s;
+  height: 120px;
 
   @include flex-column-center;
 }
@@ -33,4 +41,13 @@ kbd{
 .play{
   background: $turquoise;
   transform: scale(1.1);
+}
+
+
+// TABLETS & DESKTOP
+
+@media  (min-width: 960px) {
+  .key{
+    height: auto;
+  }
 }

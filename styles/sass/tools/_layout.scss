@@ -16,9 +16,11 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
+
+// TABLETS & DESKTOP
 
 @media  (min-width: 960px) {
   .keys{
