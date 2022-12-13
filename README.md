@@ -42,10 +42,10 @@ A little music pad, to make some sounds with your keyboard.
 
 | Color         | Hex                                                              |
 | ------------- | ---------------------------------------------------------------- |
-| Turquoise | ![#1ABC9C](https://via.placeholder.com/10/1ABC9C?text=+) #1ABC9C |
-| Dark grey | ![#19242e](https://via.placeholder.com/10/19242e?text=+) #19242e |
-| Light grey | ![#34495E](https://via.placeholder.com/10/#34495E?text=+) #34495E |
-| Silver | ![#BDC3C7](https://via.placeholder.com/10/#BDC3C7?text=+) #BDC3C7 |
+| Turquoise | ![#1ABC9C](https://placehold.co/15x15/1ABC9C/1ABC9C.png) `#1ABC9C` |
+| Dark grey | ![#19242e](https://placehold.co/15x15/19242e/19242e.png) `#19242e` |
+| Light grey | ![#34495E](https://placehold.co/15x15/34495E/34495E.png) `#34495E` |
+| Silver | ![#BDC3C7](https://placehold.co/15x15/BDC3C7/BDC3C7.png) `#BDC3C7` |
 
 ---
 
