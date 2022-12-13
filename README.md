@@ -51,7 +51,7 @@ A little music pad, to make some sounds with your keyboard.
 
 ## 📸 Screenshots
 
-<img src="images/Screenshot/Screenshot.webp" width=30% alt="Khord app screenshot">
+<img src="images/Screenshot/Screenshot.webp" width=70% alt="Khord app screenshot">
 
 ---
 
