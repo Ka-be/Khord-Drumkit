@@ -1,6 +1,6 @@
 # KHORD - A JS Drumpad
 
-<img src="images/logo.svg" width=30%>
+<img src="images/logo.svg" width=30% alt="Khord logo">
 
 A little music pad, to make some sounds with your keyboard.
 
@@ -26,9 +26,9 @@ A little music pad, to make some sounds with your keyboard.
 
 ## 💻 Softwares used
 
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?&logo=visual%20studio%20code&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00e&logo=adobe%20illustrator&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?&logo=notion&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?&logo=visual%20studio%20code&logoColor=white) - Web development </br>
+![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00e&logo=adobe%20illustrator&logoColor=white) - Logo & icons design </br>
+![Notion](https://img.shields.io/badge/Notion-000000?&logo=notion&logoColor=white) - Notes & organization </br>
 
 ---
 
@@ -51,7 +51,7 @@ A little music pad, to make some sounds with your keyboard.
 
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="images/Screenshot/Screenshot.webp" width=30% alt="Khord app screenshot">
 
 ---
 
