@@ -20,6 +20,7 @@ A little music pad, to make some sounds with your keyboard.
 
 ## 💡 Features
 
+![Responsive](https://img.shields.io/badge/Responsive-Partial-3498DB?style=flat-square)
 - Responsive (Touch feature on going)
 
 ---
